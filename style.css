@@ -1,0 +1,368 @@
+html{
+    width: 1260px;
+    height: 940px;
+    background-color: #edf2c5;
+}
+
+/*header{
+    border:1px solid #000;
+    width: auto;
+    height: auto;
+}
+*/
+body {
+    position: relative;
+    width: 1260px;
+    height: 940px;
+    background-color: #edf2c5; 
+    margin:auto;
+    left: 100px;
+}
+
+header{
+    width: 940px;
+    height: 103px;
+}
+
+.container{
+    position:relative;
+    width: 940px;
+    height: 880px;
+    left: 160px;
+}
+.Main-Vegetables {
+    position: relative;
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+    top: 36px;
+}
+
+.header_sub{
+    height:25px;
+    width:210px;
+    float: right;
+    position: relative;
+    top: 60px;
+    
+}
+.btn_facebook {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin-left: 10px;
+    position:relative;
+    right:4px;
+}
+
+.btn_instagram {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    position:relative;
+    right:-2px;
+}
+
+.line_login {
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    display: inline-block;
+    position:relative;
+    right:-9px;
+  }
+
+.LOGIN {
+    width:58px;
+	height: 23px;
+	border: 1px solid #778A50;
+	border-radius: 3px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+	font-size: 14px;
+	color: #778A50;
+	text-align: center;
+	line-height: 25px;
+    margin-right: 10px;
+    display: inline-block;
+    position:relative;
+    top:-7px;
+    right:-16px;
+}
+
+.JOIN {
+    width: 47px;
+    height: 23px;
+    border: solid 1px #778a50;
+    border-radius:3px;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #778a50;
+    line-height: 25px;
+    margin-right: 10px;
+    position:relative;
+    top:-7px;
+    right:-13px;
+}
+
+.nav_box {
+    position:relative;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    bottom:15px;
+    line-height: 44px;
+  }
+
+  .nav_ul{
+    list-style:none;
+    display: flex;
+    text-align: center;
+  }
+
+  .nav_li{
+    text-decoration: none;
+  }
+
+  .Home {
+    width: 51px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    position:relative;
+    left:-11px;
+  }
+
+  .About-Us {
+    width: 80px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    position:relative;
+    left:58px;
+  }
+
+  .Vegetables {
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    position:relative;
+    left:118px;
+  }
+
+  .Online {
+    width: 56px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    position:relative;
+    left:178px;
+  }
+
+  .Contact {
+    width: 69px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    position:relative;
+    left:238px;
+  }
+
+  .img_main_pumpkin {
+      position: relative;
+    width: 940px;
+    height: 448px;
+    object-fit: contain;
+    margin: 20px auto;
+    bottom:15px;
+  }
+
+  .boxes{
+      position: relative;
+    display: grid;
+    grid-template-columns:50% 50%;
+    bottom:9px;
+  }
+
+  article{
+      position: relative;
+      top:15px;
+  }
+  .box_text_Vegetables {  
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    line-height:45px;
+    padding-left:30px;
+  }
+
+  .body_box_vegetables {
+    display:block;
+    position: relative;
+    width: 414px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+  }
+
+  .img_vegetables_pepper {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+  }
+
+  .img_vegetables_carrot {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    position:relative;
+    left:8px;
+  }
+
+  .img_vegetables_corn {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    position:relative;
+    left:16px;
+  }
+
+  .box_text_Contact {
+  width: 69px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  line-height:45px;
+  padding-left:30px;
+}
+
+  .body_box_contact {
+    width: 414px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    position:relative;
+    left:27px;
+  }
+
+  .body_box_contact_text {
+    width: 414px;
+    height: 125px;
+    background-color:#f7fbda;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    position:relative;
+    left:27px;
+    top:15px;
+    padding:15px 15px 0 15px;
+  }
+
+  p{
+    position:relative;
+    top:-10px;
+  }
+
+  .line_contact_text {
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    position:relative;
+    top:-5px;
+  }
+
+  .msg{
+    line-height:22px;
+    position:relative;
+    top:-5px;
+  }
+
+  .Copyrights {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    text-align:center;
+    line-height:60px;
+  }
+
+  .box_footer {
+    width:1260px;
+    height: 60px;
+    background-color: #778a50;
+  }
+
+
